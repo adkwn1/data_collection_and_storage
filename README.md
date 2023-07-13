@@ -4,7 +4,7 @@ Author: Andrew Kwon
 ## Description
 This project demonstrates data collection from various sources, then conducts analysis and hypothesis testing on the results. Main tasks include SQL database queries, parsing an HTML GET request from an online source, and data visualization and analysis in Jupyter notebook. The database is unavailable for public use. As such, the following files are included for demonstrative purposes:
 
-- **ride_info_collection.sql**: PostgreSQL script containing the queries used to build the resulting tables (see Datasets) for our analysis.
+- **ride_info_collection.sql**: PostgreSQL script containing the queries used to build the resulting tables (see Datasets) for our analysis. Tasks described in comment sections.
 - **er_diagram.png**: Entity Relationship diagram of the database.  
 - **wx_records_collection.py**: Python script used to parse HTML GET request from an online source of weather information. Results already stored in database, script simply prints a sample result of the resulting table.
 
