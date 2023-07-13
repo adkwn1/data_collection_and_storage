@@ -18,5 +18,7 @@ for row in table.find_all('tr'):
 
 weather_records = pd.DataFrame(content, columns=heading_table)
 
+# for demo, printing results of GET request rather than writing new table to SQL
+# see documention: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html
 weather_records.info()
 print(weather_records.sample(10))
