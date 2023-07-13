@@ -6,7 +6,7 @@ This project demonstrates data collection from various sources, then conducts an
 
 - **ride_info_collection.sql**: PostgreSQL script containing the queries used to build the resulting tables (see Datasets) for our analysis.
 - **er_diagram.png**: Entity Relationship diagram of the database.  
-- **wx_records_collection.py**: Python script used to parse HTML GET request from an online source of weather information. Results stored in the database (see er_diagram.png).
+- **wx_records_collection.py**: Python script used to parse HTML GET request from an online source of weather information. Results already stored in database, script simply prints a sample result of the resulting table.
 
 ## Introduction
 In this project, we work as an analyst for a new ride-sharing company that's launching in Chicago. Our task is to find patterns in the available information in order to understand passenger preferences and the impact of external factors on rides. Working with a database, we'll analyze data from competitors and test a hypothesis about the impact of weather on ride frequency. The goal of the analysis is to provide insight on weather impacts and recommend route priorities.
