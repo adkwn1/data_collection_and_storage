@@ -59,10 +59,11 @@ In this project, we work as an analyst for a new ride-sharing company that's lau
 - *duration_seconds*: ride duration in seconds
 
 ## Required Libraries
-For analysis and hypothesis testing in Jupyter notebook:
 - pandas
 - seaborn
 - scipy.stats
+- requests (only for Python script)
+- BeautifulSoup (only for Python script)
 
 ## Screenshots
 ![2b35ea9b-40a9-46bf-bd01-490fc6c5bad2](https://github.com/adkwn1/data_collection_and_storage/assets/119823114/2ccc9591-afb3-4c56-aef6-829bd806ca22)
