@@ -58,7 +58,7 @@ In this project, we work as an analyst for a new ride-sharing company that's lau
 - *weather_conditions*: weather conditions at the moment the ride started  
 - *duration_seconds*: ride duration in seconds
 
-## Required Libraries
+## Requirements
 - pandas
 - seaborn
 - scipy.stats
